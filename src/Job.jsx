@@ -20,11 +20,11 @@ export default function Job({ job, filters, setFilters }) {
       } gap-1.6 relative`}
     >
       <div className="absolute lg:hidden top-[0px] translate-y-[-50%]  left-[20px] w-[50px]">
-        <img src={`public/${logo}`} alt="photosnap logo" />
+        <img src={logo} alt={`${company} logo`} />
       </div>
       <div className="flex gap-1.6">
         <div className="hidden lg:block w-[80px]">
-          <img src={`public/${logo}`} alt="photosnap logo" />
+          <img src={logo} alt={`${company} logo`} />
         </div>
         <div className="flex flex-col gap-0.8">
           <div className="flex gap-1.6 items-center">

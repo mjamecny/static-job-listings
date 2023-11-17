@@ -182,18 +182,7 @@ export default function App() {
 
   return (
     <div className="relative lg:static">
-      <header className="bg-desaturatedDarkCyan">
-        <img
-          className="lg:hidden"
-          src="public/bg-header-mobile.svg"
-          alt="bg-mobile"
-        />
-        <img
-          className="hidden lg:block"
-          src="public/bg-header-desktop.svg"
-          alt="bg-desktop"
-        />
-      </header>
+      <header className="bg-desaturatedDarkCyan bg-[url('../public/bg-header-mobile.svg')] bg-cover bg-no-repeat lg:bg-[url('../public/bg-header-desktop.svg')] h-[150px]"></header>
       <section className=" max-w-[1200px] mx-auto px-2.4 py-8">
         <div className="flex flex-col gap-4.8 lg:gap-2.4 lg:relative">
           {filters.length > 0 && (
