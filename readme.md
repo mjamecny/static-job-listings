@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/job-listings-with-filtering-JI4Rkfjlqp)
 - Live Site URL: [Netlify](https://fm-challenge-static-job-listings.netlify.app/)
 
 ## My process
