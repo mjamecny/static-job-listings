@@ -42,6 +42,11 @@ export default {
       darkGrayishCyan: "hsl(180, 8%, 52%)",
       veryDarkGrayishCyan: "hsl(180, 14%, 20%)",
     },
+    extend: {
+      boxShadow: {
+        card: "inset 5px 0 hsl(180, 29%, 50%),0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+      },
+    },
   },
   plugins: [],
 }
